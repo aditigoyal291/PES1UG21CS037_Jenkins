@@ -20,7 +20,7 @@ pipeline{
   }
     post {
       failure {
-        error 'Pipeline failed'
+        error 'Pipeline has failed. Please check the code again'
       }
     }
 }
